@@ -1,4 +1,4 @@
-# Vector Space Model Search Engine (CSD358)
+# Vector Space Model Search (CSD358)
 
 This project is an information retrieval system built for the Information Retrieval Assignment (CSD358). It implements a search engine to include features like phrase search, proximity search, and robust text processing with NLTK.
 
