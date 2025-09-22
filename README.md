@@ -43,19 +43,19 @@ Place all the .txt document files you want to index into the corpus/ directory.
 5. Execute the Program
 Run the main script from your terminal:
 
-python main.py
-On the first run:
-The program will automatically download the necessary NLTK data packages (punkt, wordnet, stopwords, etc.). This requires an internet connection.
-It will then build the positional index from the documents in the corpus/ directory and save it as positional_index.json and doc_lengths.json. This process might take a few moments depending on the size of your corpus.
-On subsequent runs:
-The program will load the existing index files for a much faster startup. (Note: The current main.py is configured to delete and rebuild the index on every run for consistent testing. This can be commented out for faster use.)
-Query Syntax Examples
-Once the program is running in interactive mode, you can use the following syntax:
+python main.py<br>
+On the first run:<br>
+The program will automatically download the necessary NLTK data packages (punkt, wordnet, stopwords, etc.). This requires an internet connection.<br>
+It will then build the positional index from the documents in the corpus/ directory and save it as positional_index.json and doc_lengths.json. This process might take a few moments depending on the size of your corpus.<br>
+On subsequent runs:<br>
+The program will load the existing index files for a much faster startup. (Note: The current main.py is configured to delete and rebuild the index on every run for consistent testing. This can be commented out for faster use.)<br>
+Query Syntax Examples<br>
+Once the program is running in interactive mode, you can use the following syntax:<br>
 
-VSM Search (default):
-  developing zomato business reputation
-Phrase Search (use double quotes):
-  "The company was founded by Steven Paul Jobs"
-Proximity Search (use w/k syntax):
-  "company" w/3 "founded"
-To exit the interactive mode, simply type exit.
+VSM Search (default):<br>
+  developing zomato business reputation<br>
+Phrase Search (use double quotes):<br>
+  "The company was founded by Steven Paul Jobs"<br>
+Proximity Search (use w/k syntax):<br>
+  "company" w/3 "founded"<br>
+To exit the interactive mode, simply type exit.<br>
